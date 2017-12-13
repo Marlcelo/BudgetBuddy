@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBG"
+    android:gravity="bottom"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:background="@color/Green_A400"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:background="@color/DeepPurple_500"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:text="SIGN UP" />
+</LinearLayout>
